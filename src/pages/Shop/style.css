@@ -1,0 +1,33 @@
+.shop-products {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding: 40px;
+}
+
+.shop-products .left-side h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    width: 100px;
+    font-weight: normal;
+    color: #595959;
+    text-transform: uppercase;
+    border-bottom:  1px solid rgba(168, 168, 168, 0.5);
+    padding: 10px;
+}
+
+
+.shop-products .right-side .row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 60px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+
+.shop-products .right-side .row .shop-card h3 {
+    font-size: 15px;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+

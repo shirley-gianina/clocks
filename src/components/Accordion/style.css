@@ -1,0 +1,22 @@
+
+.accordion .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    cursor: pointer;
+
+}
+
+.accordion .accordion-header h3 {
+    margin-bottom: 0;
+}
+
+.accordion .accordion-header ion-icon {
+    font-size: 25px;
+}
+
+.accordion .accordion-body {
+    padding: 0;
+}
+

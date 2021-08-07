@@ -1,0 +1,70 @@
+.header-menu{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.header-menu h1 {
+    font-family:'Caudex', serif;
+    font-size: 23px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #303030;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+.header-menu h3 {
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    color: #303030;
+    padding-top: 5px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.container-menu {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.container-menu .links {
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    font-size: 15px;
+    list-style: none;
+    border-top: 1px solid rgba(168, 168, 168, 0.5);
+    border-bottom:1px solid rgba(168, 168, 168, 0.5);
+    padding: 10px;
+}
+
+.container-menu .links a {
+    text-decoration: none;
+    color: #303030;
+}
+
+.container-menu .links .login {
+    text-transform: capitalize;
+    font-size: 15px;
+    padding-left: 15px;
+    color: #595959;
+
+}
+
+.container-menu .links a:hover,
+.container-menu .links a.active {
+    color: #a8a8a8;
+}
+
+.container-menu .links i {
+    font-size: 25px;
+    border-left: 1px solid rgba(168, 168, 168, 0.5);
+    padding-left: 15px;
+    color: #595959;
+}

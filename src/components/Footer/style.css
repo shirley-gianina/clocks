@@ -1,0 +1,19 @@
+footer {
+    background: #f8f8f8;
+    color: #595959;
+    border-top: 1px solid rgba(168, 168, 168, 0.5);
+}
+
+.content-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.social i {
+    text-decoration: none;
+    color: #737373;
+    font-size: 20px;
+    margin: 10px;
+}

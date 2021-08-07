@@ -1,0 +1,47 @@
+.content-about {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding: 50px;
+    margin-bottom: 100px;
+}
+
+
+.content-about .right-about .row-about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.content-about .description-about {
+    padding: 20px;
+}
+
+
+.content-about .image-about {
+    padding: 20px;
+    width: 100%;
+}
+
+
+.content-about .description-about p {
+    margin-bottom: 20px;
+    line-height: normal;
+    font-size: 15px;
+}
+
+
+.content-about .left-about h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    width: 100px;
+    color: #595959;
+    text-transform: uppercase;
+    border-bottom:  1px solid rgba(168, 168, 168, 0.5);
+    padding: 5px;
+}
+
+
+.content-about .left-about {
+    padding: 20px;
+}

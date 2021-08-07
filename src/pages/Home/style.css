@@ -1,0 +1,100 @@
+.slider {
+    border: 1px solid rgba(168, 168, 168, 0.5);
+    overflow: hidden;
+    opacity: 1;
+}       
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    height: 500px;
+    animation: cambio 10s infinite;
+}
+
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider img {
+    width: 100%;
+}    
+
+@keyframes cambio {
+    
+    25% {
+        margin-left: 0;
+    }
+
+    50% {
+        margin-left: -100%;
+    }
+
+    75% {
+        margin-left: -200%;
+    }
+
+    100% {
+        margin-left: -300%;
+    }
+}
+
+
+
+.body-content {
+    position: relative;
+} 
+
+.body-content .card {
+    position: absolute;
+    background-color: #ffffff9e;
+    width: 350px;
+    top: 20px;
+    padding: 20px 20px;
+    margin: 40px 40px;
+}
+
+.body-content .card h5 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #303030;
+    letter-spacing: normal;
+    font-weight: normal;
+    padding-bottom: 15px;
+    
+}
+
+.body-content .card p {
+    font-size: 14px;
+    color: #303030;
+    padding-bottom: 50px;
+}
+
+.body-content .card .shop-button {
+    height: 35px;
+    width: 150px;
+    background-color:transparent;
+    border: 1px solid #303030;
+}
+
+
+.body-content .card .shop-button a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #303030;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 20px 20px;
+    
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 30px;
+    margin: 60px auto;
+}

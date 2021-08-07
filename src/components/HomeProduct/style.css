@@ -1,0 +1,36 @@
+.card-image {
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.card-image .title {
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+}
+
+.card-image .view-details {
+    display: none;
+    color: #c48b21;
+    border: 1px solid #c48b21;
+    background-color: #ffffff;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto 0 auto;
+    text-transform: capitalize;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.card-image:hover .view-details {
+    display: block;
+}
+
+.card-image:hover .product-description {
+    display: none;
+}
+

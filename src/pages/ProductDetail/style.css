@@ -1,0 +1,37 @@
+
+.btn-cart {
+    background-color: #C48B21;;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto 0 auto;
+    cursor: pointer;
+}
+
+.btn-cart:hover {
+    opacity: 0.9;
+}
+
+.btn-cart a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.btn-buy {
+    background-color: #303030;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto 0 auto;
+    cursor: pointer;
+}
+
+.btn-buy:hover {
+    opacity: 0.9;
+
+}
+
+.btn-buy a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
